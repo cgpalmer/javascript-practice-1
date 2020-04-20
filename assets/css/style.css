@@ -1,0 +1,65 @@
+/*--------------------------------------------------------- Body*/
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000;
+    padding-bottom: 3rem; /* Footer position */
+}
+
+/*--------------------------------------------------------- Header*/
+
+.heading-centre {
+    text-align: center;
+}
+
+.heading-style-uppercase {
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------------- Section*/
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+/*--------------------------------------------------------- Footer*/
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.anchor-styling {
+    padding: 0.5em;
+    color: #000;
+}
+
+/*--------------------------------------------------------- Dark Mode*/
+
+.body-dark {
+    background-color: #343a40;
+    color: #daa520;
+}
+
+.footer-dark {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #daa520;
+    text-align: center;
+}
+
+.anchor-styling-dark {
+    padding: 0.5em;
+    color: #daa520;
+}
