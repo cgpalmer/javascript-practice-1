@@ -22,8 +22,12 @@ body {
 
 .box {
     height: 200px;
-    width: 200px;
+    width: 120px;
     border: 1px solid #000;
+}
+
+.ml-960 {
+    margin-left: 960px;
 }
 
 /*--------------------------------------------------------- Footer*/
