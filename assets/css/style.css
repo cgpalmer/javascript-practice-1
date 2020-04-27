@@ -1,4 +1,93 @@
-/*--------------------------------------------------------- Body*/
+        .grid-item1{grid-area: square1}
+        .grid-item2{grid-area: square2}
+        .grid-item3{grid-area: square3}
+        .grid-item4{grid-area: square4}
+        .grid-item5{grid-area: square5}
+        .grid-item6{grid-area: square6}
+        .grid-item7{grid-area: square7}
+        .grid-item8{grid-area: square8}
+        .grid-item9{grid-area: square9}
+        .grid-item10{grid-area: square10}
+        .grid-item11{grid-area: square11}
+        .grid-item12{grid-area: square12}
+        .grid-item13{grid-area: square13}
+        .grid-item14{grid-area: square14}
+        .grid-item15{grid-area: square15}
+        .grid-item16{grid-area: square16}
+        .grid-item17{grid-area: square17}
+        .grid-item18{grid-area: square18}
+        .grid-item19{grid-area: square19}
+        .grid-item20{grid-area: square20}
+        .grid-item21{grid-area: square21}
+        .grid-item22{grid-area: square22}
+        .grid-item23{grid-area: square23}
+        .grid-item24{grid-area: square24}
+        .grid-item25{grid-area: square25}
+        .grid-item26{grid-area: square26}
+        .grid-item27{grid-area: square27}
+        .grid-item28{grid-area: square28}
+        .grid-item29{grid-area: square29}
+        .grid-item30{grid-area: square30}
+        .grid-item31{grid-area: square31}
+        .grid-item32{grid-area: square32}
+        .grid-item33{grid-area: square33}
+        .grid-item34{grid-area: square34}
+        .grid-item35{grid-area: square35}
+        .grid-item36{grid-area: square36}
+
+.grid-container{
+    display: grid;
+    
+    grid-template-areas: 'square1 square2 square3 square4 square5 square6 square7 square8 square9 square10'
+                        'square36 none none none none none none none none square11'
+                        'square35 none none none none none none none none square12'
+                        'square34 none none none none none none none none square13'
+                        'square33 none none none none none none none none square14'
+                        'square32 none none none none none none none none square15'
+                        'square31 none none none none none none none none square16'
+                        'square30 none none none none none none none none square17'
+                        'square29 none none none none none none none none square18'
+                        'square28 square27 square26 square25 square24 square23 square22 square21 square20 square19';
+                        grid-template-columns: 10;
+                        grid-gap:0;
+                        column-gap: 0;
+                        row-gap: 0s;
+                        column-width: 50px;
+                        background-color: skyblue;
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        border-top: 1px solid black;
+                        justify-content: start;
+}
+
+
+.horizontal {
+    background-color: blue;
+    height: 100px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.vertical {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.banner {
+    height: 100%;
+    background-color: red;
+    width: 80%;
+
+}
+.corner-pieces{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
 
 body {
     position: relative;
